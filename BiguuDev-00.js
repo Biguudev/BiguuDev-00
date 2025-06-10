@@ -6,7 +6,7 @@
 let body = $response.body;
 let data = JSON.parse(body);
 
-// Override the response with fake VIP status
+
 data = {
   active_sub_type: 2,
   account_type: 1,
